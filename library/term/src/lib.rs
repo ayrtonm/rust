@@ -29,7 +29,7 @@
 //! [ansi]: https://en.wikipedia.org/wiki/ANSI_escape_code
 //! [win]: https://docs.microsoft.com/en-us/windows/console/character-mode-applications
 //! [ti]: https://en.wikipedia.org/wiki/Terminfo
-
+#![feature(restricted_std)]
 #![doc(
     html_root_url = "https://doc.rust-lang.org/nightly/",
     html_playground_url = "https://play.rust-lang.org/",
